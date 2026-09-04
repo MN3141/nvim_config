@@ -1,10 +1,10 @@
 return {
   {
-    "tiagovla/tokyodark.nvim",
+    "catppuccin/nvim",
     lazy = false,                     -- makes sure we load this during startup
     priority = 1000,                  -- make sure to load this before all the other start plugins
     config = function()
-      vim.cmd.colorscheme "tokyodark" -- sets the colorscheme to tokyodark
+      vim.cmd.colorscheme "catppuccin"
     end,
   }
 }
